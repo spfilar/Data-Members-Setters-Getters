@@ -1,0 +1,176 @@
+Data members, setters, and getters
+
+#1
+private Float diskFileSize;
+
+public void setDiskFileSize(Float diskFileSize)
+{
+	this.diskFileSize = diskFileSize;
+}
+
+public getDiskFileSize()
+{
+	return diskFileSize;
+}
+
+#2
+private Float acresOfLand;
+
+public void setAcresOfLand(Float acresOfLand)
+{
+	this.acresOfLand = acresOfLand;
+}
+
+public Float getAcresOfLand()
+{
+	return acresOfLand;
+}
+
+#3
+private String fileName;
+
+public void setFileName(String fileName)
+{
+	this.fileName = fileName;
+}
+
+public String getFileName()
+{
+	return fileName;
+}
+
+#4
+private String formattedPhoneNumber;
+
+public void setFormattedPhoneNumber(String formattedPhoneNumber)
+{
+	this.formattedPhoneNumber = formattedPhoneNumber;
+}
+
+public String getFormattedPhoneNumber()
+{
+	return formattedPhoneNumber;
+}
+
+#5
+private String companyName;
+
+public void setCompanyName(String companyName)
+{
+	this.companyName = companyName;
+}
+
+public String getCompanyName()
+{
+	return companyName;
+}
+
+#6
+private Date todaysDate;
+
+public void setTodaysDate(Date todaysDate)
+{
+	this.todaysDate = todaysDate;
+}
+
+public Date getTodaysDate()
+{
+	return todaysDate;
+}
+
+
+#7
+private Boolean lightSwitch;
+
+public void setLightSwitch(Boolean lightSwitch)
+{
+	this.lightSwitch = lightSwtich;
+}
+
+public Boolean getLightSwitch()
+{
+	return lightSwitch;
+}
+
+#8
+private Float pi;
+
+public void setPi(Float pi)
+{
+	this.pi = pi;
+}
+
+public Float getPi()
+{
+	return pi;
+}
+
+#9
+private Long speedOfLight;
+
+public void setSpeedOfLight(Long speedOfLight)
+{
+	this.speedOfLight = speedOfLight;
+}
+
+public Long getSpeedOfLight()
+{
+	return speedOfLight;
+}
+
+#10
+private class Vehicle
+{
+	Vehicle v = new Vehicle();
+
+	public Vehicle getV()
+	{
+		return v;
+	}
+
+	public void setV(Vehicle v)
+	{
+		this.v = v;
+	}
+
+}
+
+#11
+private class Address
+{
+	Address a = new Address();
+
+	public Address getA()
+	{
+		return a;
+	}
+
+	public void setA(Vehicle a)
+	{
+		this.a = a;
+	}
+
+}
+
+#12
+private class Product
+{
+	Product p = new Product();
+
+	p.addProduct("Toaster");
+	p.addProduct("Microwave");
+	p.addProduct("Stove");
+
+	public Product getP()
+	{
+		return p;
+	}
+
+	public void setP(Product p)
+	{
+		this.p = p;
+	}
+
+}
+
+
